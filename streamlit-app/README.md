@@ -30,7 +30,7 @@ make sure you have a requirements.txt file in your project directory, run:
 > `pip install -r requirements.txt`
 
 Once all the requremments are successfully downloaded, you can proceed to run the streamlit app using:
-> `streamlit run app.py`
+> `streamlit run main.py`
 
 3. Deactivating the Virtual Environment
 Once you are done working in the virtual environment, you can deactivate it by running:
