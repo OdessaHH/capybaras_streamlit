@@ -14,10 +14,10 @@ from io import BytesIO
 # Set up the Streamlit app title and custom CSS for green jungle design
 st.set_page_config(page_title="FAUNAVISION", page_icon="🌿")
 
-# Set up the Streamlit app title and logo
+"""# Set up the Streamlit app title and logo
 logo_path = "faunalogo.png"  # Replace with the actual path to your logo
 st.image(logo_path, width=800)  # Adjust the width as needed
-st.markdown('<h2 style="color:#F0FFF0;">Wildlife Species Images Classifier</h2>', unsafe_allow_html=True)
+st.markdown('<h2 style="color:#F0FFF0;">Wildlife Species Images Classifier</h2>', unsafe_allow_html=True)"""
 
 
 # Define custom CSS for styling
