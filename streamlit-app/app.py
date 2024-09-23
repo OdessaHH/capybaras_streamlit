@@ -15,7 +15,7 @@ from io import BytesIO
 st.set_page_config(page_title="FAUNAVISION", page_icon="🌿")
 
 # Set up the Streamlit app title and logo
-logo_path = "FaunaVision_logo_edit1.png"  # Replace with the actual path to your logo
+logo_path = "FaunaVision_logo.png"  # Replace with the actual path to your logo
 st.image(logo_path, width=800)  # Adjust the width as needed
 st.markdown('<h2 style="color:#F0FFF0;">Wildlife Species Images Classifier</h2>', unsafe_allow_html=True)
 
@@ -139,7 +139,7 @@ if st.sidebar.button('Predict') and image_files:
         'rodent': 'Rodent'
     }
 
-    model_path = 'model.pth'  # Replace with your model path
+    model_path = 'models/model.pth'  # Replace with your model path
     model = torch.load(model_path)
     model.eval()
 
